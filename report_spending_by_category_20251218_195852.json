@@ -1,0 +1,14 @@
+{
+  "report": "spending_by_category",
+  "status": "success",
+  "category": "Food",
+  "period": "2021-10-02 - 2021-12-31",
+  "total_spent": 1250.0,
+  "transactions_count": 2,
+  "average_per_transaction": 625.0,
+  "monthly_breakdown": {
+    "2021-10": 500.0,
+    "2021-11": 750.0
+  },
+  "message": "За 3 месяца потрачено 1250.00 руб на 'Food'"
+}
