@@ -3,7 +3,7 @@ import json
 from unittest.mock import patch
 
 import pandas as pd
-import pytest
+
 
 from src.reports import spending_by_category, spending_by_weekday
 
@@ -130,4 +130,3 @@ def test_reports_real_calls():
     result = spending_by_weekday(df, "2021-12-31")
     parsed = json.loads(result)
     assert parsed["status"] == "success"
-0

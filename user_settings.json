@@ -1,0 +1,5 @@
+﻿{
+  "user_currencies": ["USD", "EUR", "CNY"],
+  "user_stocks": ["AAPL", "AMZN", "GOOGL", "MSFT", "TSLA"],
+  "investment_rounding_limit": 50
+}
