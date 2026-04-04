@@ -1,5 +1,3 @@
-import pytest
-
 from src.main import run_all_functionalities
 
 
@@ -11,7 +9,6 @@ def test_main_smoke():
     parsed = json.loads(result)
     assert isinstance(parsed, dict)
 
-    import pytest
 
     def test_main_import():
         """Просто импортируем main."""

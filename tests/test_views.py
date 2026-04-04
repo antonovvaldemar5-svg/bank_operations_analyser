@@ -3,7 +3,6 @@ import json
 from unittest.mock import mock_open, patch
 
 import pandas as pd
-import pytest
 
 from src.views import (
     get_cards_summary,

@@ -1,9 +1,4 @@
-import datetime
 import json
-from unittest.mock import mock_open, patch
-
-import pandas as pd
-import pytest
 
 from src.services import investment_bank, investment_piggybank, simple_search
 
